@@ -24,10 +24,6 @@ jobs:
           fetch-depth: 0
           repository: scicode-bench/submissions
           path: submissions
-      - name: Verify directory structure
-        run: |
-          sudo apt-get install tree
-          tree -d .
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -46,13 +42,7 @@ jobs:
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: Installing requirements
-        run: |
-          pwd
-          ls
-          uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
-      - name: Verify directory structure
-        run: |
-          tree -d ../../
+        run: uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
       - name: Building leaderboard
         run: python leaderboard/create_leaderboard.py --input submissions --output docs/leaderboard_table.md
       - name: Build Documentation
