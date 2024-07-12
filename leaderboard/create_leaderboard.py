@@ -2,6 +2,7 @@
 
 import argparse
 import dataclasses
+from multiprocessing import Value
 from pathlib import Path
 import pandas as pd
 import json
@@ -48,7 +49,14 @@ class LeaderboardAggregator:
 
 def main(input: str, output: str) -> None:
     la = LeaderboardAggregator()
-    for inpt in Path(input).rglob("score.json"):
+    if not Path(input).is_dir():
+        msg = "Input must be an existing directory"
+        raise ValueError(msg)
+    score_files = Path(input).rglob("score.json")
+    if not score_files:
+        msg = "No score files found"
+        raise ValueError(msg)
+    for inpt in score_files:
         print("Loading", inpt)
         la.load_file(inpt)
     la.to_file(Path(output))

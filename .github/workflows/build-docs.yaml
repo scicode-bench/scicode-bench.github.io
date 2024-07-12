@@ -14,15 +14,23 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+        with:
+          path: website-draft
+          fetch-depth: 0
       - name: Check out submissions
         uses: actions/checkout@master
         with:
           fetch-depth: 0
           repository: scicode-bench/submissions
-      - name: Check out website
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+          path: submissions
+      - name: Verify directory structure
+        run: |
+          sudo apt-get install tree
+          tree -d .
+      - name: Change into right directory
+        run: cd website-draft
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -45,6 +53,9 @@ jobs:
           pwd
           ls
           uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
+      - name: Verify directory structure
+        run: |
+          tree -d ../../
       - name: Building leaderboard
         run: python leaderboard/create_leaderboard.py --input ../submissions --output docs/leaderboard_table.md
       - name: Build Documentation
