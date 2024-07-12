@@ -60,6 +60,6 @@ plugins:
    - glightbox
    - search
    - include-markdown
-repo_url: https://github.com/pscicode-bench/website-draft
+repo_url: https://github.com/scicode-bench/website-draft
 repo_name: sicode-bench/website-draft
 edit_uri: edit/main/docs/
