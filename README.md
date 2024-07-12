@@ -1,5 +1,7 @@
 # Scicode website
 
+The leaderboard is aggregated from `score.json` files in the `submissions` repository. Everything else is just markdown files.
+
 ## Building it
 
 ```bash
