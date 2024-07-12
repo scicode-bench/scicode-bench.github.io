@@ -2,11 +2,7 @@
 
 <center>
 
-| Date    | Authors | Model | Score | Notes |
-| -------- | ------- | --- | --- | --- |
-| January  | 0.8    |
-| February | 0.7     |
-| March    | 0.6    |
+{% include-markdown "leaderboard_table.md" %}
 
 </center>
 

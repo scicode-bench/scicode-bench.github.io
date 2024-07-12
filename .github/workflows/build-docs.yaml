@@ -17,6 +17,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+          repository: scicode-bench/submissions
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -34,7 +38,10 @@ jobs:
       - name: Install uv
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
-      - run: uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
+      - name: Installing requirements
+        run: uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
+      - name: Building leaderboard
+        run: python leaderboard/create_leaderboard.py --input ../submissions --output docs/leaderboard_table.md
       - name: Build Documentation
         if: github.ref != 'refs/heads/main'
         run: mkdocs build
