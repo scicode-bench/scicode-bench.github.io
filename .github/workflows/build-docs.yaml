@@ -14,13 +14,15 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/checkout@master
+      - name: Check out submissions
+        uses: actions/checkout@master
         with:
           fetch-depth: 0
           repository: scicode-bench/submissions
+      - name: Check out website
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -39,7 +41,10 @@ jobs:
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: Installing requirements
-        run: uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
+        run: |
+          pwd
+          ls
+          uv pip install --python ${Python_ROOT_DIR} -r 'requirements.txt'
       - name: Building leaderboard
         run: python leaderboard/create_leaderboard.py --input ../submissions --output docs/leaderboard_table.md
       - name: Build Documentation
