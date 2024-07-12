@@ -1,0 +1,65 @@
+site_name: SciCode Benchmark
+theme:
+  name: material
+  custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
+    # logo: assets/swe-agent.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: deep orange
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - content.action.edit
+    - navigation.footer
+    - content.code.copy
+    - content.footnote.tooltips
+    - header.autohide
+    - announce.dismiss
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Overview: index.md
+  - Leaderboard: leaderboard.md
+  - Preprint: "https://arxiv.org"
+  - Documentation: 
+    - "docs/index.md"
+    - Quickstart: docs/quickstart.md
+    - Usage: docs/usage.md
+    - FAQ: docs/faq.md
+plugins:
+   - glightbox
+   - search
+   - include-markdown
+repo_url: https://github.com/pscicode-bench/website-draft
+repo_name: sicode-bench/website-draft
+edit_uri: edit/main/docs/
