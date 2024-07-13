@@ -16,8 +16,11 @@
 <sup>9</sup>Stanford University  
 <sup>10</sup>Princeton University  
 <sup>11</sup>The NSF AI Institute for Artificial Intelligence and Fundamental Interactions  
+</p>
+
 <p align="center">
 * Equal contribution lead authors. † Data curation, alphabetical order.
+</p>
 
 
 
