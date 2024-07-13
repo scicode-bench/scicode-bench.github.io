@@ -1,20 +1,21 @@
 # SciCode: A Research Coding Benchmark Curated by Scientists
 
-**Minyang Tian$^{1,2}$$^*$, Luyu Gao$^{3}$$^*$, Shizhuo Dylan Zhang$^{1}$, Xinan Chen$^{1}$$^\dagger$, Cunwei Fan$^{1}$$^\dagger$, Xuefei Guo$^{1}$$^\dagger$, Roland Haas$^{1}$$^\dagger$, Pan Ji$^{4}$$^\dagger$, Kittithat Krongchon$^{1}$$^\dagger$, Yao Li$^{1}$$^\dagger$, Shengyan Liu$^{1}$$^\dagger$, Di Luo$^{5,6,11}$$^\dagger$, Yutao Ma$^{7}$$^\dagger$, Hao Tong$^{1}$$^\dagger$, Kha Trinh$^{7}$$^\dagger$, Chenyu Tian$^{8}$$^\dagger$, Zihan Wang$^{1}$$^\dagger$, Bohao Wu$^{1}$$^\dagger$, Yanyu Xiong$^{9}$$^\dagger$, Shengzhu Yin$^{1}$$^\dagger$, Minhui Zhu$^{1}$$^\dagger$, Kilian Lieret$^{10}$, Yanxin Lu$^{1}$, Genglin Liu$^{1}$, Yufeng Du$^{1}$, Tianhua Tao$^{1}$, Ofir Press$^{10}$, Jamie Callan$^{3}$, Eliu Huerta$^{1,2,7}$, Hao Peng$^{1}$**
+**Minyang Tian<sup>1,2*</sup>, Luyu Gao<sup>3*</sup>, Shizhuo Dylan Zhang<sup>1</sup>, Xinan Chen<sup>1†</sup>, Cunwei Fan<sup>1†</sup>, Xuefei Guo<sup>1†</sup>, Roland Haas<sup>1†</sup>, Pan Ji<sup>4†</sup>, Kittithat Krongchon<sup>1†</sup>, Yao Li<sup>1†</sup>, Shengyan Liu<sup>1†</sup>, Di Luo<sup>5,6,11†</sup>, Yutao Ma<sup>7†</sup>, Hao Tong<sup>1†</sup>, Kha Trinh<sup>7†</sup>, Chenyu Tian<sup>8†</sup>, Zihan Wang<sup>1†</sup>, Bohao Wu<sup>1†</sup>, Yanyu Xiong<sup>9†</sup>, Shengzhu Yin<sup>1†</sup>, Minhui Zhu<sup>1†</sup>, Kilian Lieret<sup>10</sup>, Yanxin Lu<sup>1</sup>, Genglin Liu<sup>1</sup>, Yufeng Du<sup>1</sup>, Tianhua Tao<sup>1</sup>, Ofir Press<sup>10</sup>, Jamie Callan<sup>3</sup>, Eliu Huerta<sup>1,2,7</sup>, Hao Peng<sup>1</sup>**
 
-$^{1}$University of Illinois Urbana-Champaign   
-$^{2}$Argonne National Laboratory  
-$^{3}$Carnegie Mellon University  
-$^{4}$University of North Carolina at Chapel Hill  
-$^{5}$Massachusetts Institute of Technology  
-$^{6}$Harvard University  
-$^{7}$University of Chicago  
-$^{8}$University of Texas at Austin  
-$^{9}$Stanford University  
-$^{10}$Princeton University  
-$^{11}$The NSF AI Institute for Artificial Intelligence and Fundamental Interactions  
+<sup>1</sup>University of Illinois Urbana-Champaign  
+<sup>2</sup>Argonne National Laboratory  
+<sup>3</sup>Carnegie Mellon University  
+<sup>4</sup>University of North Carolina at Chapel Hill  
+<sup>5</sup>Massachusetts Institute of Technology  
+<sup>6</sup>Harvard University  
+<sup>7</sup>University of Chicago  
+<sup>8</sup>University of Texas at Austin  
+<sup>9</sup>Stanford University  
+<sup>10</sup>Princeton University  
+<sup>11</sup>The NSF AI Institute for Artificial Intelligence and Fundamental Interactions  
 
-$^{*}$ Equal contribution lead authors. $^\dagger$ Data curation, alphabetical order.
+* Equal contribution lead authors. † Data curation, alphabetical order.
+
 
 
 
