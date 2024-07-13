@@ -20,10 +20,14 @@
 
 <p align="center">
 * Equal contribution lead authors. † Data curation, alphabetical order.
-    
-‡ Corresponding to: {mtian8,haopeng}@illinois.edu, elihu@anl.gov
+‡ Corresponding to: {mtian8, haopeng}@illinois.edu, elihu@anl.gov
 </p>
 
+## Introduction
+SciCode is a newly developed benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of **6** domains: Physics, Math, Material Science, Biology, and Chemistry. They span 16 diverse natural science sub-fields. Unlike previous benchmarks that consist of question-answer pairs, SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains **338** subproblems decomposed from **80** challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation.
+
+
+## Overview
 
 
 
@@ -37,18 +41,16 @@
 
     [:octicons-arrow-right-24: Browse the results](leaderboard.md)
 
--   :material-book:{ .lg .middle } __Preprint__
+-   :material-book:{ .lg .middle } __Paper__
 
     ---
 
     Learn all the details
 
-    [:octicons-arrow-right-24: Read the preprint](https://arxiv.com)
+    [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
 </div>
 
-commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
 
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
 
 <div class="grid cards" markdown>
 
