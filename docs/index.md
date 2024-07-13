@@ -1,8 +1,24 @@
-# Scicode-bench: How good are LMs at science?
+# SciCode: A Research Coding Benchmark Curated by Scientists
 
-Scicode-bench uses more than XX handcollected problem sets from various disciplines to evaluate the ability of LMs to solve any scientific challenge.
+# \name: A Research Coding Benchmark Curated by Scientists
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula.
+**Minyang Tian$^{1,2}$$^*$, Luyu Gao$^{3}$$^*$, Shizhuo Dylan Zhang$^{1}$, Xinan Chen$^{1}$$^\dagger$, Cunwei Fan$^{1}$$^\dagger$, Xuefei Guo$^{1}$$^\dagger$, Roland Haas$^{1}$$^\dagger$, Pan Ji$^{4}$$^\dagger$, Kittithat Krongchon$^{1}$$^\dagger$, Yao Li$^{1}$$^\dagger$, Shengyan Liu$^{1}$$^\dagger$, Di Luo$^{5,6,11}$$^\dagger$, Yutao Ma$^{7}$$^\dagger$, Hao Tong$^{1}$$^\dagger$, Kha Trinh$^{7}$$^\dagger$, Chenyu Tian$^{8}$$^\dagger$, Zihan Wang$^{1}$$^\dagger$, Bohao Wu$^{1}$$^\dagger$, Yanyu Xiong$^{9}$$^\dagger$, Shengzhu Yin$^{1}$$^\dagger$, Minhui Zhu$^{1}$$^\dagger$, Kilian Lieret$^{10}$, Yanxin Lu$^{1}$, Genglin Liu$^{1}$, Yufeng Du$^{1}$, Tianhua Tao$^{1}$, Ofir Press$^{10}$, Jamie Callan$^{3}$, Eliu Huerta$^{1,2,7}$, Hao Peng$^{1}$**
+
+$^{1}$University of Illinois Urbana-Champaign   
+$^{2}$Argonne National Laboratory  
+$^{3}$Carnegie Mellon University  
+$^{4}$University of North Carolina at Chapel Hill  
+$^{5}$Massachusetts Institute of Technology  
+$^{6}$Harvard University  
+$^{7}$University of Chicago  
+$^{8}$University of Texas at Austin  
+$^{9}$Stanford University  
+$^{10}$Princeton University  
+$^{11}$The NSF AI Institute for Artificial Intelligence and Fundamental Interactions  
+
+$^{*}$ Equal contribution lead authors. $^\dagger$ Data curation, alphabetical order.
+
+
 
 <div class="grid cards" markdown>
 
