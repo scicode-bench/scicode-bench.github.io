@@ -1,7 +1,5 @@
 # SciCode: A Research Coding Benchmark Curated by Scientists
 
-# \name: A Research Coding Benchmark Curated by Scientists
-
 **Minyang Tian$^{1,2}$$^*$, Luyu Gao$^{3}$$^*$, Shizhuo Dylan Zhang$^{1}$, Xinan Chen$^{1}$$^\dagger$, Cunwei Fan$^{1}$$^\dagger$, Xuefei Guo$^{1}$$^\dagger$, Roland Haas$^{1}$$^\dagger$, Pan Ji$^{4}$$^\dagger$, Kittithat Krongchon$^{1}$$^\dagger$, Yao Li$^{1}$$^\dagger$, Shengyan Liu$^{1}$$^\dagger$, Di Luo$^{5,6,11}$$^\dagger$, Yutao Ma$^{7}$$^\dagger$, Hao Tong$^{1}$$^\dagger$, Kha Trinh$^{7}$$^\dagger$, Chenyu Tian$^{8}$$^\dagger$, Zihan Wang$^{1}$$^\dagger$, Bohao Wu$^{1}$$^\dagger$, Yanyu Xiong$^{9}$$^\dagger$, Shengzhu Yin$^{1}$$^\dagger$, Minhui Zhu$^{1}$$^\dagger$, Kilian Lieret$^{10}$, Yanxin Lu$^{1}$, Genglin Liu$^{1}$, Yufeng Du$^{1}$, Tianhua Tao$^{1}$, Ofir Press$^{10}$, Jamie Callan$^{3}$, Eliu Huerta$^{1,2,7}$, Hao Peng$^{1}$**
 
 $^{1}$University of Illinois Urbana-Champaign   
