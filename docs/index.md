@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+<strong>Ofir Press<sup>10</sup>, Jamie Callan<sup>3</sup>, Eliu Huerta<sup>1,2,7</sup>, Hao Peng<sup>1</sup></strong>
+</p>
+
+<p align="center">
 <sup>1</sup>University of Illinois Urbana-Champaign  
 <sup>2</sup>Argonne National Laboratory  
 <sup>3</sup>Carnegie Mellon University  
