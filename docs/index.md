@@ -24,11 +24,18 @@
 </p>
 
 ## Introduction
-SciCode is a newly developed benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of **6** domains: Physics, Math, Material Science, Biology, and Chemistry. They span 16 diverse natural science sub-fields. Unlike previous benchmarks that consist of question-answer pairs, SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains **338** subproblems decomposed from **80** challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation.
+SciCode is a newly developed benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of **6** domains: Physics, Math, Material Science, Biology, and Chemistry. They span 16 diverse natural science sub-fields. Unlike previous benchmarks that consist of question-answer pairs, SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains **338** subproblems decomposed from **80** challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation. Claude3.5-Sonnet, the best-performing model among those tested, can solve only **4.6%** of the problems in the most realistic setting. 
 
 
 ## Overview
 
+| **Fields**           | **Subfields**                                                                                                 |
+|----------------------|---------------------------------------------------------------------------------------------------------------|
+| **Mathematics**      | Numerical Linear Algebra (7), Computational Mechanics (6), Computational Finance (1)                          |
+| **Physics**          | Condensed Matter Physics (13), Optics (10), Quantum Information/Computing (6), Computational Physics (5), Astrophysics (2), Particle Physics (1) |
+| **Chemistry**        | Quantum Chemistry (5), Computational Chemistry (3)                                                            |
+| **Biology**          | Ecology (6), Biochemistry (1), Genetics (1)                                                                   |
+| **Material Science** | Semiconductor Materials (7), Molecular Modeling (6)                                                           |
 
 
 <div class="grid cards" markdown>
