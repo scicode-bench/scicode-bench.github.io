@@ -1295,41 +1295,25 @@ Some news here: We've just open-sourced our repository.
 <h3 id="subproblems">Subproblems</h3>
 <p><strong>1.1 Write a Haldane model Hamiltonian on a hexagonal lattice, given the following parameters: wavevector components <span class="arithmatex">\(k_x\)</span> and <span class="arithmatex">\(k_y\)</span> (momentum) in the x and y directions, lattice spacing <span class="arithmatex">\(a\)</span>, nearest-neighbor coupling constant <span class="arithmatex">\(t_1\)</span>, next-nearest-neighbor coupling constant <span class="arithmatex">\(t_2\)</span>, phase <span class="arithmatex">\(\phi\)</span> for the next-nearest-neighbor hopping, and the on-site energy <span class="arithmatex">\(m\)</span>.</strong></p>
 <p><strong><em>Scientists Annotated Background:</em></strong>
-Source: Haldane, F. D. M. (1988). Model for a quantum Hall effect without Landau levels: Condensed-matter realization of the" parity anomaly". Physical review letters, 61(18).
-We denote <span class="arithmatex">\(\{\mathbf{a}_i\}\)</span> are the vectors from a B site to its three nearest-neighbor A sites, and <span class="arithmatex">\(\{\mathbf{b}_i\}\)</span> are next-nearest-neighbor distance vectors, then we have 
-[
-\begin{aligned}
-\mathbf{a}_1 &amp;= (0,a), \
-\mathbf{a}_2 &amp;= \left(\frac{\sqrt{3}a}{2}, -\frac{a}{2}\right), \
-\mathbf{a}_3 &amp;= \left(-\frac{\sqrt{3}a}{2}, -\frac{a}{2}\right)
-\end{aligned}
-]
-[
-\begin{aligned}
-\mathbf{b}_1 &amp;= \mathbf{a}_2 - \mathbf{a}_3 = (\sqrt{3}a,0), \
-\mathbf{b}_2 &amp;= \mathbf{a}_3 - \mathbf{a}_1 = \left(-\frac{\sqrt{3}a}{2}, -\frac{3a}{2}\right), \
-\mathbf{b}_3 &amp;= \mathbf{a}_1 - \mathbf{a}_2 = \left(-\frac{\sqrt{3}a}{2},\frac{3a}{2}\right)
-\end{aligned}
-]
-\
-Then the Haldane model on a hexagonal lattice can be written as
-[
-H(k) = d_0 I + d_1 \sigma_1 + d_2 \sigma_2 + d_3 \sigma_3
-]
-[
-\begin{aligned}
-d_0 &amp;= 2 t_2 \cos \phi \sum_i \cos (\mathbf{k} \cdot \mathbf{b}_i) \
-    &amp;= 2 t_2 \cos \phi \left[ \cos \left( \sqrt{3} k_x a \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} + \frac{3 k_y a}{2} \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} - \frac{3 k_y a}{2} \right) \right] \
-d_1 &amp;= t_1 \sum_i \cos (\mathbf{k} \cdot \mathbf{a}_i) \
-    &amp;= t_1 \left[ \cos \left( k_y a \right) + \cos \left( \frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) \right] \
-d_2 &amp;= t_1 \sum_i \sin (\mathbf{k} \cdot \mathbf{a}_i) \
-    &amp;= t_1 \left[ \sin \left( k_y a \right) + \sin \left( \frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) \right] \
-d_3 &amp;= m - 2 t_2 \sin \phi \sum_i \sin (\mathbf{k} \cdot \mathbf{b}_i) \
-    &amp;= m - 2 t_2 \sin \phi \left[ \sin \left( \sqrt{3} k_x a \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} + \frac{3 k_y a}{2} \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} - \frac{3 k_y a}{2} \right) \right]
-\end{aligned}
-]
-\
-where <span class="arithmatex">\(\sigma_i\)</span> are the Pauli matrices and <span class="arithmatex">\(I\)</span> is the identity matrix. \
+Source: Haldane, F. D. M. (1988). Model for a quantum Hall effect without Landau levels: Condensed-matter realization of the" parity anomaly". Physical review letters, 61(18).</p>
+<p>We denote <span class="arithmatex">\(\{\mathbf{a}_i\}\)</span> are the vectors from a B site to its three nearest-neighbor A sites, and <span class="arithmatex">\(\{\mathbf{b}_i\}\)</span> are next-nearest-neighbor distance vectors, then we have
+$$
+{\mathbf{a}_1} = (0,a),\
+{\mathbf{a}_2} = (\sqrt 3 a/2, - a/2),\
+{\mathbf{a}_3} = ( - \sqrt 3 a/2, - a/2)\
+{\mathbf{b}_1} = {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),\
+{\mathbf{b}_2} = {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),\
+{\mathbf{b}_3} = {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
+$$</p>
+<p>Then the Haldane model on a hexagonal lattice can be written as
+<span class="arithmatex">\(<span class="arithmatex">\(H(k) = {d_0}I + {d_1}{\sigma _1} + {d_2}{\sigma _2} + {d_3}{\sigma _3}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\({d_0} = 2{t_2}\cos \phi \sum\nolimits_i {\cos (\mathbf{k} \cdot {\mathbf{b}_i})} = 2{t_2}\cos \phi \left[ {\cos \left( {\sqrt 3 {k_x}a} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 + 3{k_y}a/2} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 - 3{k_y}a/2} \right)} \right]\)</span>\)</span>
+$$
+{d_1} = {t_1}\sum\nolimits_i {\cos (\mathbf{k} \cdot {\mathbf{a}_i})}  = {t_1}\left[ {\cos \left( {{k_y}a} \right) + \cos \left( {\sqrt 3 {k_x}a/2 - {k_y}a/2} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 - {k_y}a/2} \right)} \right]\
+{d_2} = {t_1}\sum\nolimits_i {\sin (\mathbf{k} \cdot {\mathbf{a}_i})}  = {t_1}\left[ {\sin \left( {{k_y}a} \right) + \sin \left( {\sqrt 3 {k_x}a/2 - {k_y}a/2} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 - {k_y}a/2} \right)} \right] \
+{d_3} = m - 2{t_2}\sin \phi \sum\nolimits_i {\sin (\mathbf{k} \cdot {\mathbf{b}_i})}  = m - 2{t_2}\sin \phi \left[ {\sin \left( {\sqrt 3 {k_x}a} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 + 3{k_y}a/2} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 - 3{k_y}a/2} \right)} \right] \
+$$</p>
+<p>where <span class="arithmatex">\(\sigma_i\)</span> are the Pauli matrices and <span class="arithmatex">\(I\)</span> is the identity matrix.
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">calc_hamiltonian</span><span class="p">(</span><span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">,</span> <span class="n">phi</span><span class="p">,</span> <span class="n">m</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Function to generate the Haldane Hamiltonian with a given set of parameters.</span>
