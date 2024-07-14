@@ -64,7 +64,7 @@ SciCode is a newly developed benchmark designed to evaluate the capabilities of 
 
 ## Overview
 
-![alt text](https://github.com/scicode-bench/website-draft/blob/main/docs/figures/SciCode_example_problem.png)
+![Image Title](https://github.com/scicode-bench/website-draft/blob/main/docs/figures/SciCode_example_problem.png/600x400/){ loading=lazy }
 ## Benchmark Statistics
 
 | **Fields**           | **Subfields**                                                                                                 |
