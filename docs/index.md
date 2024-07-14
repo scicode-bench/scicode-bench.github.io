@@ -459,7 +459,7 @@ t1 = 4.0
 t2 = 1.0
 N = 40
 ```
-![alt text](https://github.com/scicode-bench/website-draft/blob/main/docs/figures/chern_number_1.png)
+![](figures/chern_number_1.png)
 
 ```python
 # Test Case 2
@@ -469,7 +469,7 @@ t1 = 5.0
 t2 = 1.0
 N = 40
 ```
-![alt text](https://github.com/scicode-bench/website-draft/blob/main/docs/figures/chern_number_2.png)
+![](figures/chern_number_2.png)
 
 ```python
 # Test Case 3
@@ -479,5 +479,5 @@ t1 = 1.0
 t2 = 0.2
 N = 40
 ```
-![alt text](https://github.com/scicode-bench/website-draft/blob/main/docs/figures/chern_number_3.png)
+![](figures/chern_number_3.png)
 
