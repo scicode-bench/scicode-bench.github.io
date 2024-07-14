@@ -439,7 +439,7 @@ def compute_chern_number_grid(delta, a, t1, t2, N):
     """
 ```
 
-## Domain Specific Test Cases
+### Domain Specific Test Cases
 **Both the $k$-space and sweeping grid sizes are set to very rough values to make the computation faster, feel free to increase them for higher accuracy.**
 
 **At zero on-site energy, the Chern number is 1 for $\phi > 0$, and the Chern number is -1 for $\phi < 0$.**
