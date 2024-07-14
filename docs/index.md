@@ -232,20 +232,14 @@ We denote $\{\mathbf{a}_i\}$ are the vectors from a B site to its three nearest-
 
 $$
 {\mathbf{a}_1} = (0,a),
-$$
-$$
+
 {\mathbf{a}_2} = (\sqrt 3 a/2, - a/2),
-$$
-$$
+
 {\mathbf{a}_3} = ( - \sqrt 3 a/2, - a/2)
-$$
-$$
 {\mathbf{b}_1} = {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),
-$$
-$$
+
 {\mathbf{b}_2} = {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),
-$$
-$$
+
 {\mathbf{b}_3} = {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
 $$
 
