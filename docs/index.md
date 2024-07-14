@@ -223,27 +223,44 @@ import cmath
 from math import pi, sin, cos, sqrt
 ```
 ### Subproblems
-**1.1 Write a Haldane model Hamiltonian on a hexagonal lattice, given the following parameters: wavevector components $$k_x$$ and $k_y$ (momentum) in the x and y directions, lattice spacing $a$, nearest-neighbor coupling constant $t_1$, next-nearest-neighbor coupling constant $t_2$, phase $\phi$ for the next-nearest-neighbor hopping, and the on-site energy $m$.**
+**1.1 Write a Haldane model Hamiltonian on a hexagonal lattice, given the following parameters: wavevector components $k_x$ and $k_y$ (momentum) in the x and y directions, lattice spacing $a$, nearest-neighbor coupling constant $t_1$, next-nearest-neighbor coupling constant $t_2$, phase $\phi$ for the next-nearest-neighbor hopping, and the on-site energy $m$.**
 
 **_Scientists Annotated Background:_**
 Source: Haldane, F. D. M. (1988). Model for a quantum Hall effect without Landau levels: Condensed-matter realization of the" parity anomaly". Physical review letters, 61(18).
-
-We denote $\{\mathbf{a}_i\}$ are the vectors from a B site to its three nearest-neighbor A sites, and $\{\mathbf{b}_i\}$ are next-nearest-neighbor distance vectors, then we have
-$$
-{\mathbf{a}_1} = (0,a),{\mathbf{a}_2} = (\sqrt 3 a/2, - a/2),{\mathbf{a}_3} = ( - \sqrt 3 a/2, - a/2)\\
-{\mathbf{b}_1} = {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),{\mathbf{b}_2} = {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),{\mathbf{b}_3} = {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
-$$
-
+We denote $\{\mathbf{a}_i\}$ are the vectors from a B site to its three nearest-neighbor A sites, and $\{\mathbf{b}_i\}$ are next-nearest-neighbor distance vectors, then we have 
+\[
+\begin{aligned}
+\mathbf{a}_1 &= (0,a), \\
+\mathbf{a}_2 &= \left(\frac{\sqrt{3}a}{2}, -\frac{a}{2}\right), \\
+\mathbf{a}_3 &= \left(-\frac{\sqrt{3}a}{2}, -\frac{a}{2}\right)
+\end{aligned}
+\]
+\[
+\begin{aligned}
+\mathbf{b}_1 &= \mathbf{a}_2 - \mathbf{a}_3 = (\sqrt{3}a,0), \\
+\mathbf{b}_2 &= \mathbf{a}_3 - \mathbf{a}_1 = \left(-\frac{\sqrt{3}a}{2}, -\frac{3a}{2}\right), \\
+\mathbf{b}_3 &= \mathbf{a}_1 - \mathbf{a}_2 = \left(-\frac{\sqrt{3}a}{2},\frac{3a}{2}\right)
+\end{aligned}
+\]
+\\
 Then the Haldane model on a hexagonal lattice can be written as
-$$H(k) = {d_0}I + {d_1}{\sigma _1} + {d_2}{\sigma _2} + {d_3}{\sigma _3}$$
-$${d_0} = 2{t_2}\cos \phi \sum\nolimits_i {\cos (\mathbf{k} \cdot {\mathbf{b}_i})}  = 2{t_2}\cos \phi \left[ {\cos \left( {\sqrt 3 {k_x}a} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 + 3{k_y}a/2} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 - 3{k_y}a/2} \right)} \right]$$
-$$
-{d_1} = {t_1}\sum\nolimits_i {\cos (\mathbf{k} \cdot {\mathbf{a}_i})}  = {t_1}\left[ {\cos \left( {{k_y}a} \right) + \cos \left( {\sqrt 3 {k_x}a/2 - {k_y}a/2} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 - {k_y}a/2} \right)} \right]\\
-{d_2} = {t_1}\sum\nolimits_i {\sin (\mathbf{k} \cdot {\mathbf{a}_i})}  = {t_1}\left[ {\sin \left( {{k_y}a} \right) + \sin \left( {\sqrt 3 {k_x}a/2 - {k_y}a/2} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 - {k_y}a/2} \right)} \right] \\
-{d_3} = m - 2{t_2}\sin \phi \sum\nolimits_i {\sin (\mathbf{k} \cdot {\mathbf{b}_i})}  = m - 2{t_2}\sin \phi \left[ {\sin \left( {\sqrt 3 {k_x}a} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 + 3{k_y}a/2} \right) + \sin \left( { - \sqrt 3 {k_x}a/2 - 3{k_y}a/2} \right)} \right] \\
-$$
-
-where $\sigma_i$ are the Pauli matrices and $I$ is the identity matrix.
+\[
+H(k) = d_0 I + d_1 \sigma_1 + d_2 \sigma_2 + d_3 \sigma_3
+\]
+\[
+\begin{aligned}
+d_0 &= 2 t_2 \cos \phi \sum_i \cos (\mathbf{k} \cdot \mathbf{b}_i) \\
+    &= 2 t_2 \cos \phi \left[ \cos \left( \sqrt{3} k_x a \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} + \frac{3 k_y a}{2} \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} - \frac{3 k_y a}{2} \right) \right] \\
+d_1 &= t_1 \sum_i \cos (\mathbf{k} \cdot \mathbf{a}_i) \\
+    &= t_1 \left[ \cos \left( k_y a \right) + \cos \left( \frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) + \cos \left( -\frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) \right] \\
+d_2 &= t_1 \sum_i \sin (\mathbf{k} \cdot \mathbf{a}_i) \\
+    &= t_1 \left[ \sin \left( k_y a \right) + \sin \left( \frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} - \frac{k_y a}{2} \right) \right] \\
+d_3 &= m - 2 t_2 \sin \phi \sum_i \sin (\mathbf{k} \cdot \mathbf{b}_i) \\
+    &= m - 2 t_2 \sin \phi \left[ \sin \left( \sqrt{3} k_x a \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} + \frac{3 k_y a}{2} \right) + \sin \left( -\frac{\sqrt{3} k_x a}{2} - \frac{3 k_y a}{2} \right) \right]
+\end{aligned}
+\]
+\\
+where $\sigma_i$ are the Pauli matrices and $I$ is the identity matrix. \\
 ```python
 def calc_hamiltonian(kx, ky, a, t1, t2, phi, m):
     """
