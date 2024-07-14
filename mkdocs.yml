@@ -42,11 +42,16 @@ markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
+  - pymdownx.arithmatex:
+    generic: true
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
   - Overview: index.md
   - Leaderboard: leaderboard.md
@@ -63,13 +68,3 @@ plugins:
 repo_url: https://github.com/scicode-bench/website-draft
 repo_name: sicode-bench/website-draft
 edit_uri: edit/main/docs/
-document$.subscribe(({ body }) => { 
-  renderMathInElement(body, {
-    delimiters: [
-      { left: "$$",  right: "$$",  display: true },
-      { left: "$",   right: "$",   display: false },
-      { left: "\\(", right: "\\)", display: false },
-      { left: "\\[", right: "\\]", display: true }
-    ],
-  })
-})
