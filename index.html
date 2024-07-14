@@ -1296,17 +1296,25 @@ Some news here: We've just open-sourced our repository.
 <p><strong>1.1 Write a Haldane model Hamiltonian on a hexagonal lattice, given the following parameters: wavevector components <span class="arithmatex">\(k_x\)</span> and <span class="arithmatex">\(k_y\)</span> (momentum) in the x and y directions, lattice spacing <span class="arithmatex">\(a\)</span>, nearest-neighbor coupling constant <span class="arithmatex">\(t_1\)</span>, next-nearest-neighbor coupling constant <span class="arithmatex">\(t_2\)</span>, phase <span class="arithmatex">\(\phi\)</span> for the next-nearest-neighbor hopping, and the on-site energy <span class="arithmatex">\(m\)</span>.</strong></p>
 <p><strong><em>Scientists Annotated Background:</em></strong>
 Source: Haldane, F. D. M. (1988). Model for a quantum Hall effect without Landau levels: Condensed-matter realization of the" parity anomaly". Physical review letters, 61(18).</p>
-<p>We denote <span class="arithmatex">\(\{\mathbf{a}_i\}\)</span> are the vectors from a B site to its three nearest-neighbor A sites, and <span class="arithmatex">\(\{\mathbf{b}_i\}\)</span> are next-nearest-neighbor distance vectors, then we have
+<p>We denote <span class="arithmatex">\(\{\mathbf{a}_i\}\)</span> are the vectors from a B site to its three nearest-neighbor A sites, and <span class="arithmatex">\(\{\mathbf{b}_i\}\)</span> are next-nearest-neighbor distance vectors, then we have</p>
+<div class="arithmatex">\[
+{\mathbf{a}_1} = (0,a),
 $$
-\begin{aligned}
-{\mathbf{a}_1} &amp;= (0,a),\
-{\mathbf{a}_2} &amp;= (\sqrt 3 a/2, - a/2),\
-{\mathbf{a}_3} &amp;= ( - \sqrt 3 a/2, - a/2)\
-{\mathbf{b}_1} &amp;= {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),\
-{\mathbf{b}_2} &amp;= {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),\
-{\mathbf{b}_3} &amp;= {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
-\end{aligned}
-$$</p>
+$$
+{\mathbf{a}_2} = (\sqrt 3 a/2, - a/2),
+$$
+$$
+{\mathbf{a}_3} = ( - \sqrt 3 a/2, - a/2)
+$$
+$$
+{\mathbf{b}_1} = {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),
+$$
+$$
+{\mathbf{b}_2} = {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),
+$$
+$$
+{\mathbf{b}_3} = {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
+\]</div>
 <p>Then the Haldane model on a hexagonal lattice can be written as
 <span class="arithmatex">\(<span class="arithmatex">\(H(k) = {d_0}I + {d_1}{\sigma _1} + {d_2}{\sigma _2} + {d_3}{\sigma _3}\)</span>\)</span>
 <span class="arithmatex">\(<span class="arithmatex">\({d_0} = 2{t_2}\cos \phi \sum\nolimits_i {\cos (\mathbf{k} \cdot {\mathbf{b}_i})} = 2{t_2}\cos \phi \left[ {\cos \left( {\sqrt 3 {k_x}a} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 + 3{k_y}a/2} \right) + \cos \left( { - \sqrt 3 {k_x}a/2 - 3{k_y}a/2} \right)} \right]\)</span>\)</span>
