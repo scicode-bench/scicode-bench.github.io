@@ -230,12 +230,14 @@ Source: Haldane, F. D. M. (1988). Model for a quantum Hall effect without Landau
 
 We denote $\{\mathbf{a}_i\}$ are the vectors from a B site to its three nearest-neighbor A sites, and $\{\mathbf{b}_i\}$ are next-nearest-neighbor distance vectors, then we have
 $$
-{\mathbf{a}_1} = (0,a),\\
-{\mathbf{a}_2} = (\sqrt 3 a/2, - a/2),\\
-{\mathbf{a}_3} = ( - \sqrt 3 a/2, - a/2)\\
-{\mathbf{b}_1} = {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),\\
-{\mathbf{b}_2} = {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),\\
-{\mathbf{b}_3} = {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
+\begin{aligned}
+{\mathbf{a}_1} &= (0,a),\\
+{\mathbf{a}_2} &= (\sqrt 3 a/2, - a/2),\\
+{\mathbf{a}_3} &= ( - \sqrt 3 a/2, - a/2)\\
+{\mathbf{b}_1} &= {\mathbf{a}_2} - {\mathbf{a}_3} = (\sqrt 3 a,0),\\
+{\mathbf{b}_2} &= {\mathbf{a}_3} - {\mathbf{a}_1} = ( - \sqrt 3 a/2, - 3a/2),\\
+{\mathbf{b}_3} &= {\mathbf{a}_1} - {\mathbf{a}_2} = ( - \sqrt 3 a/2,3a/2)
+\end{aligned}
 $$
 
 Then the Haldane model on a hexagonal lattice can be written as
