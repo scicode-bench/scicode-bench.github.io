@@ -29,13 +29,129 @@ SciCode is a newly developed benchmark designed to evaluate the capabilities of 
 
 ## Overview
 
+
+## Benchmark Statistics
+
 | **Fields**           | **Subfields**                                                                                                 |
 |----------------------|---------------------------------------------------------------------------------------------------------------|
-| **Mathematics**      | Numerical Linear Algebra (7), Computational Mechanics (6), Computational Finance (1)                          |
-| **Physics**          | Condensed Matter Physics (13), Optics (10), Quantum Information/Computing (6), Computational Physics (5), Astrophysics (2), Particle Physics (1) |
-| **Chemistry**        | Quantum Chemistry (5), Computational Chemistry (3)                                                            |
-| **Biology**          | Ecology (6), Biochemistry (1), Genetics (1)                                                                   |
-| **Material Science** | Semiconductor Materials (7), Molecular Modeling (6)                                                           |
+| **Mathematics**      | [Numerical Linear Algebra](#numerical-linear-algebra) (7), [Computational Mechanics](#computational-mechanics) (6), [Computational Finance](#computational-finance) (1) |
+| **Physics**          | [Condensed Matter Physics](#condensed-matter-physics) (13), [Optics](#optics) (10), [Quantum Information/Computing](#quantum-informationcomputing) (6), [Computational Physics](#computational-physics) (5), [Astrophysics](#astrophysics) (2), [Particle Physics](#particle-physics) (1) |
+| **Chemistry**        | [Quantum Chemistry](#quantum-chemistry) (5), [Computational Chemistry](#computational-chemistry) (3)          |
+| **Biology**          | [Ecology](#ecology) (6), [Biochemistry](#biochemistry) (1), [Genetics](#genetics) (1)                         |
+| **Material Science** | [Semiconductor Materials](#semiconductor-materials) (7), [Molecular Modeling](#molecular-modeling) (6)       |
+
+### Numerical Linear Algebra
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+### Computational Mechanics
+1.
+2.
+3.
+4.
+5.
+6.
+
+### Computational Finance
+1.
+
+### Condensed Matter Physics
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+
+### Optics
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+### Quantum Information/Computing
+1.
+2.
+3.
+4.
+5.
+6.
+
+### Computational Physics
+1.
+2.
+3.
+4.
+5.
+
+### Astrophysics
+1.
+2.
+
+### Particle Physics
+1.
+
+### Quantum Chemistry
+1.
+2.
+3.
+4.
+5.
+
+### Computational Chemistry
+1.
+2.
+3.
+
+### Ecology
+1.
+2.
+3.
+4.
+5.
+6.
+
+### Biochemistry
+1.
+
+### Genetics
+1.
+
+### Semiconductor Materials
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+### Molecular Modeling
+1.
+2.
+3.
+4.
+5.
+6.
+
 
 
 <div class="grid cards" markdown>
