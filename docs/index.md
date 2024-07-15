@@ -88,11 +88,11 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 
 | **Fields**           | **Subfields**                                                                                                 |
 |----------------------|---------------------------------------------------------------------------------------------------------------|
-| **Mathematics**      | [Numerical Linear Algebra](#numerical-linear-algebra) (8), [Computational Mechanics](#computational-mechanics) (5), [Computational Finance](#computational-finance) (1) |
-| **Physics**          | [Condensed Matter Physics](#condensed-matter-physics) (13), [Optics](#optics) (10), [Quantum Information/Computing](#quantum-informationcomputing) (6), [Computational Physics](#computational-physics) (5), [Astrophysics](#astrophysics) (2), [Particle Physics](#particle-physics) (1) |
-| **Chemistry**        | [Quantum Chemistry](#quantum-chemistry) (5), [Computational Chemistry](#computational-chemistry) (3)          |
-| **Biology**          | [Ecology](#ecology) (6), [Biochemistry](#biochemistry) (1), [Genetics](#genetics) (1)                         |
-| **Material Science** | [Semiconductor Materials](#semiconductor-materials) (7), [Molecular Modeling](#molecular-modeling) (6)       |
+| **Mathematics**      | [Numerical Linear Algebra](problems.md#numerical-linear-algebra) (8), [Computational Mechanics](problems.md#computational-mechanics) (5), [Computational Finance](problems.md#computational-finance) (1) |
+| **Physics**          | [Condensed Matter Physics](problems.md#condensed-matter-physics) (13), [Optics](problems.md#optics) (10), [Quantum Information/Computing](problems.md#quantum-informationcomputing) (6), [Computational Physics](problems.md#computational-physics) (5), [Astrophysics](problems.md#astrophysics) (2), [Particle Physics](problems.md#particle-physics) (1) |
+| **Chemistry**        | [Quantum Chemistry](problems.md#quantum-chemistry) (5), [Computational Chemistry](problems.md#computational-chemistry) (3)          |
+| **Biology**          | [Ecology](problems.md#ecology) (6), [Biochemistry](problems.md#biochemistry) (1), [Genetics](problems.md#genetics) (1)                         |
+| **Material Science** | [Semiconductor Materials](problems.md#semiconductor-materials) (7), [Molecular Modeling](problems.md#molecular-modeling) (6)       |
 
 ![Image Title](figures/SciCode_chart.png)
 <p style="text-align: center;">Left: Distribution of Main Problems   Right: Distribution of Subproblems</p>
