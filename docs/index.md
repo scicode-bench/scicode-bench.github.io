@@ -27,13 +27,13 @@
 <div class="grid cards" markdown>
 
 
--   :material-play:{ .lg .middle } __Github Repo__
+-   :material-book:{ .lg .middle } __Dataset__
 
     ---
 
-    Learn how to evaluate your model
+    Dataset
 
-    [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
+    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
 
 
 -   :material-book:{ .lg .middle } __Paper__
@@ -51,13 +51,13 @@
 
 
 
--   :material-book:{ .lg .middle } __Dataset__
+-   :material-play:{ .lg .middle } __Github Repo__
 
     ---
 
-    Dataset
+    Learn how to evaluate your model
 
-    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
+    [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
 
 
 -   :material-book:{ .lg .middle } __Leaderboard__
