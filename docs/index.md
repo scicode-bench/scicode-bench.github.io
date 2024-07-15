@@ -54,7 +54,7 @@
 
     Learn how to evaluate your model
 
-    [:octicons-arrow-right-24: Read the docs](docs/index.md)
+    [:octicons-arrow-right-24: Github Repo](https://github.com/scicode-bench/SciCode)
 
 </div>
 
