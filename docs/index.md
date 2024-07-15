@@ -40,7 +40,7 @@
 
     Browse all the problems
 
-    [:octicons-arrow-right-24: Download Dataset](https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/data/problems_all.jsonl)
+    [:octicons-arrow-right-24: Download Dataset](https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/data/data.zip)
 
 
 -   :material-github:{ .lg .middle } __Github Repo__
