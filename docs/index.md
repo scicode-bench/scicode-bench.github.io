@@ -83,7 +83,11 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 ![Image Title](figures/SciCode_chart.png)
 **Left:** Distribution of Main Problems   **Right:** Distribution of Subproblems
 
-
+## Experiment Results
+We evaluate our model using zero-shot prompts. We keep the prompts general and design different ones for different evaluation setups only to inform the model about the tasks. We keep prompts the same across models and fields, and they contain the model’s main and sub-problem instructions and code for previous subproblems. The standard setup means the model is tested without background knowledge and carrying over generated solutions to previous subproblems. The scientists' annotated background provides the necessary knowledge and reasoning steps to solve the problems, shifting the evaluation’s focus more towards the models’ coding and instruction-following capabilities.
+![Image Title](figures/Standard_Setup.png)
+![Image Title](figures/Standard_Background.png)
+![Image Title](figures/Performance_Gain.png)
 
 ### Numerical Linear Algebra
 1_Conjugate_Gradient
