@@ -26,7 +26,6 @@
 
 <div class="grid cards" markdown>
 
-
 -   :material-book:{ .lg .middle } __Paper__
 
     ---
@@ -35,24 +34,16 @@
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
 
-
-
--   :material-book:{ .lg .middle } __Dataset__
+-   :material-download:{ .lg .middle } __Dataset__
 
     ---
 
-    Dataset
+    Browse all the problems
 
-    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
-    </div>
-
+    [:octicons-arrow-right-24: Download Dataset](https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/data/problems_all.jsonl)
 
 
-<div class="grid cards" markdown>
-
-
-
--   :material-play:{ .lg .middle } __Github Repo__
+-   :material-github:{ .lg .middle } __Github Repo__
 
     ---
 
@@ -60,8 +51,7 @@
 
     [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
 
-
--   :material-book:{ .lg .middle } __Leaderboard__
+-   :material-trending-up:{ .lg .middle } __Leaderboard__
 
     ---
 
@@ -69,7 +59,8 @@
     (Coming soon...)
 
     [:octicons-arrow-right-24: Browse the results](leaderboard.md)
-    </div>
+
+</div>
 
     
 
