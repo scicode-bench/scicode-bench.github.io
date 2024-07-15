@@ -23,6 +23,7 @@
 ‡ Corresponding to: {mtian8, haopeng}@illinois.edu, elihu@anl.gov
 </p>
 
+
 <div class="grid cards" markdown>
 
 
@@ -42,8 +43,13 @@
     Learn all the details
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
+    </div>
 
-</div>
+
+
+<div class="grid cards" markdown>
+
+
 
 -   :material-book:{ .lg .middle } __Dataset__
 
@@ -62,8 +68,9 @@
     (Coming soon...)
 
     [:octicons-arrow-right-24: Browse the results](leaderboard.md)
+    </div>
 
-</div>
+
 
 
 ## Introduction
