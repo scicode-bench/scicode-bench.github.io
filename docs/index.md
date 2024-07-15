@@ -43,8 +43,8 @@
     Learn all the details
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
-    
-</div>
+
+<div class="grid cards" markdown>
 
 -   :material-book:{ .lg .middle } __Dataset__
 
