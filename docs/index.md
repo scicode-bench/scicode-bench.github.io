@@ -80,10 +80,8 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 | **Biology**          | [Ecology](#ecology) (6), [Biochemistry](#biochemistry) (1), [Genetics](#genetics) (1)                         |
 | **Material Science** | [Semiconductor Materials](#semiconductor-materials) (7), [Molecular Modeling](#molecular-modeling) (6)       |
 
-<figure markdown="span">
-  ![Image Title](figures/SciCode_chart.png)
-  <figcaption>Left: Distribution of Main Problems   Right: Distribution of Subproblems </figcaption>
-</figure>
+![Image Title](figures/SciCode_chart.png)
+Left: Distribution of Main Problems   Right: Distribution of Subproblems
 
 
 
