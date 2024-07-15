@@ -27,22 +27,23 @@
 <div class="grid cards" markdown>
 
 
-- :material-book:{ .lg .middle } __Leaderboard__
+-   :material-play:{ .lg .middle } __Github Repo__
 
-  ---
+    ---
 
-  How good are LMs at science, really?
+    Learn how to evaluate your model
 
-  [:octicons-arrow-right-24: Browse the results](leaderboard.md)
+    [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
 
-- :material-book:{ .lg .middle } __Paper__
 
-  ---
+-   :material-book:{ .lg .middle } __Paper__
 
-  Learn all the details
+    ---
 
-  [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
-  </div>
+    Learn all the details
+
+    [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
+    </div>
 
 
 
@@ -50,16 +51,26 @@
 
 
 
-- :material-play:{ .lg .middle } __Installation & usage__
+-   :material-book:{ .lg .middle } __Dataset__
 
-  ---
+    ---
 
-  Learn how to evaluate your model
+    Dataset
 
-  [:octicons-arrow-right-24: Read the docs](docs/index.md)
+    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
 
-</div>
 
+-   :material-book:{ .lg .middle } __Leaderboard__
+
+    ---
+
+    How good are LMs at science, really?
+    (Coming soon...)
+
+    [:octicons-arrow-right-24: Browse the results](leaderboard.md)
+    </div>
+
+    
 
 ## Introduction
 SciCode is a challenging benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of **16** subdomains from **6** domains: Physics, Math, Material Science, Biology, and Chemistry. Unlike previous benchmarks that consist of exam-like question-answer pairs, SciCode is converted from real research problems. SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains **338** subproblems decomposed from **80** challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation. Claude3.5-Sonnet, the best-performing model among those tested, can solve only **4.6%** of the problems in the most realistic setting. Broadly, SciCode demonstrates a realistic and scientists' everyday workflow of identifying critical science concepts and facts and then transforming them into computation and simulation code. We believe SciCode not only helps demonstrate contemporary LLMs' progress towards helpful assistant for scientists but also helps shed light on future building and evaluation of scientific AI.
