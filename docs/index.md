@@ -89,6 +89,8 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 ![Image Title](figures/SciCode_chart.png)
 <p style="text-align: center;">Left: Distribution of Main Problems   Right: Distribution of Subproblems</p>
 
+We include several research problems that are built upon or reproduce methods used in Nobel Prize-winning studies to highlight current trends in scientific research: the self-consistent field (SCF) method for density functional theory (DFT) calculations (**The Nobel Prize in Chemistry 1998**), the PMNS matrix for neutrino oscillation in matter (**The Nobel Prize in Physics 2015**), the Haldane model for the anomalous quantum Hall effect (**The Nobel Prize in Physics 2016**), optical tweezer simulations for microscopic thermodynamics (**The Nobel Prize in Physics 2018**), and the replica method for spin glasses (**The Nobel Prize in Physics 2021**).
+
 ## Experiment Results
 We evaluate our model using zero-shot prompts. We keep the prompts general and design different ones for different evaluation setups only to inform the model about the tasks. We keep prompts the same across models and fields, and they contain the model’s main and sub-problem instructions and code for previous subproblems. The standard setup means the model is tested without background knowledge and carrying over generated solutions to previous subproblems. The scientists' annotated background provides the necessary knowledge and reasoning steps to solve the problems, shifting the evaluation’s focus more towards the models’ coding and instruction-following capabilities.
 ![Image Title](figures/Standard_Setup.png)
