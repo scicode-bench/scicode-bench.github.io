@@ -26,9 +26,6 @@
 <div class="grid cards" markdown>
 
 
-<div class="grid cards" markdown>
-
-
 -   :material-play:{ .lg .middle } __Github Repo__
 
     ---
@@ -46,6 +43,7 @@
     Learn all the details
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
+    
 </div>
 
 -   :material-book:{ .lg .middle } __Dataset__
@@ -55,6 +53,8 @@
     Dataset
 
     [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
+
+</div>
 
 -   :material-book:{ .lg .middle } __Leaderboard__
 
