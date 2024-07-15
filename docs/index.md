@@ -25,14 +25,19 @@
 
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __Leaderboard__
+
+<div class="grid cards" markdown>
+
+
+-   :material-play:{ .lg .middle } __Github Repo__
 
     ---
 
-    How good are LMs at science, really?
-    (Coming soon...)
+    Learn how to evaluate your model
 
-    [:octicons-arrow-right-24: Browse the results](leaderboard.md)
+    [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
+
+</div>
 
 -   :material-book:{ .lg .middle } __Paper__
 
@@ -43,20 +48,24 @@
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
 </div>
 
-
-
-<div class="grid cards" markdown>
-
-
--   :material-play:{ .lg .middle } __Installation & usage__
+-   :material-book:{ .lg .middle } __Dataset__
 
     ---
 
-    Learn how to evaluate your model
+    Dataset
 
-    [:octicons-arrow-right-24: Github Repo](https://github.com/scicode-bench/SciCode)
+    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
 
-</div>
+-   :material-book:{ .lg .middle } __Leaderboard__
+
+    ---
+
+    How good are LMs at science, really?
+    (Coming soon...)
+
+    [:octicons-arrow-right-24: Browse the results](leaderboard.md)
+
+
 
 
 ## Introduction
