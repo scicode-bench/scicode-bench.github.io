@@ -68,7 +68,7 @@ SciCode sources challenging and realistic research-level coding problems across 
 
 Among various coding necessities, Scicode mainly focuses on 1. Numerical methods 2.Simulation of systems 3. Scientific calculation. These are the tasks we believe require intense scientific knowledge and reasoning to optimally test LM’s science capability. The below figure is an example of the combination of 1 and 3.
 
-In designing test cases for evaluation, we incorporate domain-specific test cases in addition to numerical cases. These tests are extracted from real scientific workflows: scientists must design domain-specific test cases to verify code accuracy by reproducing results published in papers or matching analytical solutions derived from theoretical models. Each problem goes through 3 rounds of validation (i.e. by in-domain scientists, out-of-domain scientists, GPT4) for quality control.
+In designing test cases for evaluation, we incorporate domain-specific test cases in addition to numerical cases. These tests are extracted from real scientific workflows: scientists must design domain-specific test cases to verify code accuracy by reproducing results published in papers or matching analytical solutions derived from theoretical models. Each problem goes through **3** rounds of validation (i.e. by in-domain scientists, out-of-domain scientists, GPT4) for quality control.
 ![Image Title](figures/SciCode_example_problem.png)
 ## Benchmark Statistics
 
@@ -80,7 +80,12 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 | **Biology**          | [Ecology](#ecology) (6), [Biochemistry](#biochemistry) (1), [Genetics](#genetics) (1)                         |
 | **Material Science** | [Semiconductor Materials](#semiconductor-materials) (7), [Molecular Modeling](#molecular-modeling) (6)       |
 
-Nobel prized related problems:
+<figure markdown="span">
+  ![Image Title](figures/SciCode_chart.png)
+  <figcaption>Left: Distribution of Main Problems   Right: Distribution of Subproblems </figcaption>
+</figure>
+
+
 
 ### Numerical Linear Algebra
 1_Conjugate_Gradient
