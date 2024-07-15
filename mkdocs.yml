@@ -57,7 +57,7 @@ nav:
     - "Example problem": example_problem.md
     - "Problem list": problems.md
   - Leaderboard: leaderboard.md
-  - Preprint: "https://arxiv.org"
+  - Preprint: "https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/SciCode.pdf"
   - Documentation: 
     - "docs/index.md"
     - Quickstart: docs/quickstart.md
