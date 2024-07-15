@@ -28,7 +28,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
-    - content.action.edit
     - navigation.footer
     - content.code.copy
     - content.footnote.tooltips
@@ -68,6 +67,5 @@ plugins:
    - glightbox
    - search
    - include-markdown
-repo_url: https://github.com/scicode-bench/website-draft
-repo_name: sicode-bench/website-draft
-edit_uri: edit/main/docs/
+repo_url: https://github.com/scicode-bench/SciCode
+repo_name: sicode-bench/SciCode
