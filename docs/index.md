@@ -20,7 +20,7 @@
 
 <p align="center">
 * Equal contribution lead authors. † Data curation, alphabetical order.
-‡ Corresponding to: {mtian8, haopeng}@illinois.edu, elihu@anl.gov
+‡ Corresponding to: {\href{mailto:mtian8@illinois.edu}{mtian8}, \href{mailto:haopeng@illinois.edu}{haopeng}\}@illinois.edu, \href{mailto:elihu@anl.gov}{elihu@anl.gov}
 </p>
 
 <div class="grid cards" markdown>
