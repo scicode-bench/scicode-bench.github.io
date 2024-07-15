@@ -34,7 +34,6 @@
 
     [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
 
-</div>
 
 -   :material-book:{ .lg .middle } __Paper__
 
@@ -44,7 +43,7 @@
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
 
-<div class="grid cards" markdown>
+</div>
 
 -   :material-book:{ .lg .middle } __Dataset__
 
@@ -54,7 +53,6 @@
 
     [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
 
-</div>
 
 -   :material-book:{ .lg .middle } __Leaderboard__
 
@@ -65,7 +63,7 @@
 
     [:octicons-arrow-right-24: Browse the results](leaderboard.md)
 
-
+</div>
 
 
 ## Introduction
