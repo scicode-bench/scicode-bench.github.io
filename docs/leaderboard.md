@@ -2,7 +2,11 @@
 
 <center>
 
-{% include-markdown "leaderboard_table.md" %}
+Under construction
+
+<!-- Once you've added the results to the submission repository,
+     bring back the table here -->
+<!-- include-markdown "leaderboard_table.md" -->
 
 </center>
 

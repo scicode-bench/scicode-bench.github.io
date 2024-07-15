@@ -53,7 +53,10 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
-  - Overview: index.md
+  - Overview: 
+    - "SciCode": index.md
+    - "Example problem": example_problem.md
+    - "Problem list": problems.md
   - Leaderboard: leaderboard.md
   - Preprint: "https://arxiv.org"
   - Documentation: 
