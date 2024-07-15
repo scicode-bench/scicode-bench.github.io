@@ -35,7 +35,7 @@
 
 20_phonon_angular_momentum
 
-33_phase_diagram_chern_haldane_model
+**33_phase_diagram_chern_haldane_model**
 
 38_Reciprocal_lattice_vector
 
@@ -106,7 +106,7 @@
 58_Tolman_Oppenheimer_Volkoff_star
 
 ## Particle Physics
-70_neutrino_oscillation
+**70_neutrino_oscillation**
 
 ## Quantum Chemistry
 **12_Schrodinger_DFT_with_SCF**
