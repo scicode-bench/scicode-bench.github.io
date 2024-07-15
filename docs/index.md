@@ -27,15 +27,6 @@
 <div class="grid cards" markdown>
 
 
--   :material-book:{ .lg .middle } __Dataset__
-
-    ---
-
-    Dataset
-
-    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
-
-
 -   :material-book:{ .lg .middle } __Paper__
 
     ---
@@ -44,6 +35,16 @@
 
     [:octicons-arrow-right-24: Read the paper](https://arxiv.com)
     </div>
+
+
+
+-   :material-book:{ .lg .middle } __Dataset__
+
+    ---
+
+    Dataset
+
+    [:octicons-arrow-right-24: Download Dataset](leaderboard.md)
 
 
 
