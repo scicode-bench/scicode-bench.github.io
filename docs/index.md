@@ -81,7 +81,7 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 | **Material Science** | [Semiconductor Materials](#semiconductor-materials) (7), [Molecular Modeling](#molecular-modeling) (6)       |
 
 ![Image Title](figures/SciCode_chart.png)
-Left: Distribution of Main Problems   Right: Distribution of Subproblems
+**Left:** Distribution of Main Problems   **Right:** Distribution of Subproblems
 
 
 
