@@ -32,7 +32,7 @@
 
     Learn all the details
 
-    [:octicons-arrow-right-24: Read the paper](https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/SciCode.pdf)
+    [:octicons-arrow-right-24: Read the paper](https://github.com/scicode-bench/scicode-bench.github.io/main/SciCode.pdf)
 
 -   :material-download:{ .lg .middle } __Dataset__
 
