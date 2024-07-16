@@ -173,5 +173,5 @@
 
 80_Anderson_thermostat
 
-** * **: Problems that are related to Nobel Prize-winning studies
+*: Problems that are related to Nobel Prize-winning studies
 
