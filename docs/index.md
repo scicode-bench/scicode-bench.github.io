@@ -20,7 +20,7 @@
 
 <p align="center">
 * Equal contribution lead authors. † Data curation, alphabetical order.
-‡ Corresponding to: {mtian8, haopeng}@illinois.edu, elihu@anl.gov
+‡ Corresponding to: {mtian8, haopeng}@illinois.edu, elihu@{anl.gov, uchicago.edu}
 </p>
 
 
