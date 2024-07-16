@@ -109,7 +109,7 @@
 **70_neutrino_oscillation**
 
 ## Quantum Chemistry
-**12_Schrodinger_DFT_with_SCF**
+**12_Schrodinger_DFT_with_SCF**^*
 
 30_helium_slater_jastrow_wavefunction
 
@@ -172,4 +172,6 @@
 79_Nose_Hoover_chain_thermostat
 
 80_Anderson_thermostat
+
+^* Problems that are related to Nobel Prize-winning studies
 
