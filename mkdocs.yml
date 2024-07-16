@@ -58,11 +58,6 @@ nav:
     - "Problem list": problems.md
   - Leaderboard: leaderboard.md
   - Preprint: "https://raw.githubusercontent.com/scicode-bench/scicode-bench.github.io/main/SciCode.pdf"
-  - Documentation: 
-    - "docs/index.md"
-    - Quickstart: docs/quickstart.md
-    - Usage: docs/usage.md
-    - FAQ: docs/faq.md
 plugins:
    - glightbox
    - search
