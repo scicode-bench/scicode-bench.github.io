@@ -615,41 +615,45 @@
 </div>
 <h2 id="introduction">Introduction</h2>
 <p align="justify">
-SciCode is a challenging benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of **16** subdomains from **6** domains: Physics, Math, Material Science, Biology, and Chemistry. Unlike previous benchmarks that consist of exam-like question-answer pairs, SciCode is converted from real research problems. SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains **338** subproblems decomposed from **80** challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation. Claude3.5-Sonnet, the best-performing model among those tested, can solve only **4.6%** of the problems in the most realistic setting. Broadly, SciCode demonstrates a realistic and scientists' everyday workflow of identifying critical science concepts and facts and then transforming them into computation and simulation code. We believe SciCode not only helps demonstrate contemporary LLMs' progress towards helpful assistant for scientists but also helps shed light on future building and evaluation of scientific AI.
+SciCode is a challenging benchmark designed to evaluate the capabilities of language models (LMs) in generating code for solving realistic scientific research problems. It has a diverse coverage of </strong>16</strong> subdomains from </strong>6</strong> domains: Physics, Math, Material Science, Biology, and Chemistry. Unlike previous benchmarks that consist of exam-like question-answer pairs, SciCode is converted from real research problems. SciCode problems naturally factorize into multiple subproblems, each involving knowledge recall, reasoning, and code synthesis. In total, SciCode contains </strong>338</strong> subproblems decomposed from </strong>80</strong> challenging main problems, and it offers optional descriptions specifying useful scientific background information and scientist-annotated gold-standard solutions and test cases for evaluation. Claude3.5-Sonnet, the best-performing model among those tested, can solve only </strong>4.6%</strong> of the problems in the most realistic setting. Broadly, SciCode demonstrates a realistic and scientists' everyday workflow of identifying critical science concepts and facts and then transforming them into computation and simulation code. We believe SciCode not only helps demonstrate contemporary LLMs' progress towards helpful assistant for scientists but also helps shed light on future building and evaluation of scientific AI.
 </p>
 
 <h2 id="overview">Overview</h2>
-<p>SciCode sources challenging and realistic research-level coding problems across 6 natural science disciplines, covering a total of 16 subfields. This diverse selection ensures a comprehensive representation of the natural sciences, where extensive code development is essential. SciCode is mainly drawn from the scripts that scientists use in their everyday workflow. Many of these have been used in one or more publications, demonstrating their robustness and correctness.</p>
-<p>Among various coding necessities, Scicode mainly focuses on: 1. Numerical methods 2. Simulation of systems 3. Scientific calculation. These are the tasks we believe require intense scientific knowledge and reasoning to optimally test LM’s science capability. The below figure is an example of the combination of 1 and 3.</p>
-<p>In designing test cases for evaluation, we incorporate domain-specific test cases in addition to numerical cases. These tests are extracted from real scientific workflows: scientists must design domain-specific test cases to verify code accuracy by reproducing results published in papers or matching analytical solutions derived from theoretical models. Each problem goes through <strong>3</strong> rounds of validation (i.e. by in-domain scientists, out-of-domain scientists, GPT4) for quality control.
-<a class="glightbox" href="figures/SciCode_example_problem.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/SciCode_example_problem.png" /></a></p>
+<p align="justify">
+SciCode sources challenging and realistic research-level coding problems across 6 natural science disciplines, covering a total of 16 subfields. This diverse selection ensures a comprehensive representation of the natural sciences, where extensive code development is essential. SciCode is mainly drawn from the scripts that scientists use in their everyday workflow. Many of these have been used in one or more publications, demonstrating their robustness and correctness.
+
+Among various coding necessities, Scicode mainly focuses on: 1. Numerical methods 2. Simulation of systems 3. Scientific calculation. These are the tasks we believe require intense scientific knowledge and reasoning to optimally test LM’s science capability. The below figure is an example of the combination of 1 and 3.
+
+In designing test cases for evaluation, we incorporate domain-specific test cases in addition to numerical cases. These tests are extracted from real scientific workflows: scientists must design domain-specific test cases to verify code accuracy by reproducing results published in papers or matching analytical solutions derived from theoretical models. Each problem goes through </strong>3</strong> rounds of validation (i.e. by in-domain scientists, out-of-domain scientists, GPT4) for quality control.
+</p>
+<p><a class="glightbox" href="figures/SciCode_example_problem.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/SciCode_example_problem.png" /></a></p>
 <h2 id="benchmark-statistics">Benchmark Statistics</h2>
 <table>
 <thead>
 <tr>
-<th><strong>Fields</strong></th>
-<th><strong>Subfields</strong></th>
+<th></strong>Fields</strong></th>
+<th></strong>Subfields</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Mathematics</strong></td>
+<td></strong>Mathematics</strong></td>
 <td><a href="problems/#numerical-linear-algebra">Numerical Linear Algebra</a> (8), <a href="problems/#computational-mechanics">Computational Mechanics</a> (5), <a href="problems/#computational-finance">Computational Finance</a> (1)</td>
 </tr>
 <tr>
-<td><strong>Physics</strong></td>
+<td></strong>Physics</strong></td>
 <td><a href="problems/#condensed-matter-physics">Condensed Matter Physics</a> (13), <a href="problems/#optics">Optics</a> (10), <a href="problems/#quantum-informationcomputing">Quantum Information/Computing</a> (6), <a href="problems/#computational-physics">Computational Physics</a> (5), <a href="problems/#astrophysics">Astrophysics</a> (2), <a href="problems/#particle-physics">Particle Physics</a> (1)</td>
 </tr>
 <tr>
-<td><strong>Chemistry</strong></td>
+<td></strong>Chemistry</strong></td>
 <td><a href="problems/#quantum-chemistry">Quantum Chemistry</a> (5), <a href="problems/#computational-chemistry">Computational Chemistry</a> (3)</td>
 </tr>
 <tr>
-<td><strong>Biology</strong></td>
+<td></strong>Biology</strong></td>
 <td><a href="problems/#ecology">Ecology</a> (6), <a href="problems/#biochemistry">Biochemistry</a> (1), <a href="problems/#genetics">Genetics</a> (1)</td>
 </tr>
 <tr>
-<td><strong>Material Science</strong></td>
+<td></strong>Material Science</strong></td>
 <td><a href="problems/#semiconductor-materials">Semiconductor Materials</a> (7), <a href="problems/#molecular-modeling">Molecular Modeling</a> (6)</td>
 </tr>
 </tbody>
@@ -657,10 +661,14 @@ SciCode is a challenging benchmark designed to evaluate the capabilities of lang
 <p><a class="glightbox" href="figures/SciCode_chart.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/SciCode_chart.png" /></a></p>
 <p style="text-align: center;">Left: Distribution of Main Problems   Right: Distribution of Subproblems</p>
 
-<p>We include several research problems that are built upon or reproduce methods used in Nobel Prize-winning studies to highlight current trends in scientific research: the self-consistent field (SCF) method for density functional theory (DFT) calculations (<strong>The Nobel Prize in Chemistry 1998</strong>), the PMNS matrix for neutrino oscillation in matter (<strong>The Nobel Prize in Physics 2015</strong>), the Haldane model for the anomalous quantum Hall effect (<strong>The Nobel Prize in Physics 2016</strong>), optical tweezer simulations for microscopic thermodynamics (<strong>The Nobel Prize in Physics 2018</strong>), and the replica method for spin glasses (<strong>The Nobel Prize in Physics 2021</strong>).</p>
+<p align="justify">
+We include several research problems that are built upon or reproduce methods used in Nobel Prize-winning studies to highlight current trends in scientific research: the self-consistent field (SCF) method for density functional theory (DFT) calculations (</strong>The Nobel Prize in Chemistry 1998</strong>), the PMNS matrix for neutrino oscillation in matter (</strong>The Nobel Prize in Physics 2015</strong>), the Haldane model for the anomalous quantum Hall effect (</strong>The Nobel Prize in Physics 2016</strong>), optical tweezer simulations for microscopic thermodynamics (</strong>The Nobel Prize in Physics 2018</strong>), and the replica method for spin glasses (</strong>The Nobel Prize in Physics 2021</strong>).
+</p>
 <h2 id="experiment-results">Experiment Results</h2>
-<p>We evaluate our model using zero-shot prompts. We keep the prompts general and design different ones for different evaluation setups only to inform the model about the tasks. We keep prompts the same across models and fields, and they contain the model’s main and sub-problem instructions and code for previous subproblems. The standard setup means the model is tested without background knowledge and carrying over generated solutions to previous subproblems. The scientists' annotated background provides the necessary knowledge and reasoning steps to solve the problems, shifting the evaluation’s focus more towards the models’ coding and instruction-following capabilities.
-<a class="glightbox" href="figures/Standard_Setup.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/Standard_Setup.png" /></a>
+<p align="justify">
+We evaluate our model using zero-shot prompts. We keep the prompts general and design different ones for different evaluation setups only to inform the model about the tasks. We keep prompts the same across models and fields, and they contain the model’s main and sub-problem instructions and code for previous subproblems. The standard setup means the model is tested without background knowledge and carrying over generated solutions to previous subproblems. The scientists' annotated background provides the necessary knowledge and reasoning steps to solve the problems, shifting the evaluation’s focus more towards the models’ coding and instruction-following capabilities.
+</p>
+<p><a class="glightbox" href="figures/Standard_Setup.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/Standard_Setup.png" /></a>
 <a class="glightbox" href="figures/Standard_Background.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/Standard_Background.png" /></a>
 <a class="glightbox" href="figures/Performance_Gain.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image Title" src="figures/Performance_Gain.png" /></a></p>
 
