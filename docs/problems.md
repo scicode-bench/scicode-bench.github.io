@@ -35,13 +35,13 @@
 
 20_phonon_angular_momentum
 
-**33_phase_diagram_chern_haldane_model**<sup>*</sup>
+**<sup>*</sup>33_phase_diagram_chern_haldane_model**
 
 38_Reciprocal_lattice_vector
 
 48_MEELS_conversion
 
-**50_Replica_symmetry_breaking**<sup>*</sup>
+**<sup>*</sup>50_Replica_symmetry_breaking**
 
 62_dmrg
 
@@ -64,13 +64,13 @@
 
 8_Spatial_filters_III
 
-**14_Brownian_motion_in_the_optical_tweezer**<sup>*</sup>
+**<sup>*</sup>14_Brownian_motion_in_the_optical_tweezer**
 
 22_Beam_translation_reexpansion
 
 28_Gaussian_Beam_Intensity
 
-**32_Multiparticle_dynamics_in_the_optical_tweezer_array**<sup>*</sup>
+**<sup>*</sup>32_Multiparticle_dynamics_in_the_optical_tweezer_array**
 
 37_ray_optics_spherical_aberration
 
@@ -106,10 +106,10 @@
 58_Tolman_Oppenheimer_Volkoff_star
 
 ## Particle Physics
-**70_neutrino_oscillation**<sup>*</sup>
+**<sup>*</sup>70_neutrino_oscillation**
 
 ## Quantum Chemistry
-**12_Schrodinger_DFT_with_SCF**<sup>*</sup>
+**<sup>*</sup>12_Schrodinger_DFT_with_SCF**
 
 30_helium_slater_jastrow_wavefunction
 
@@ -152,7 +152,7 @@
 
 34_PN_diode_band_diagram
 
-**35_Quantum_Dot_Absorption_Spectrum**<sup>*</sup>
+**<sup>*</sup>35_Quantum_Dot_Absorption_Spectrum**
 
 36_Quasi_Fermi_levels_of_photo_resistor_out_of_equilibrium
 
@@ -173,5 +173,5 @@
 
 80_Anderson_thermostat
 
-<sup>*</sup>: Problems that are related to Nobel Prize-winning studies
+*****: Problems that are related to Nobel Prize-winning studies
 
