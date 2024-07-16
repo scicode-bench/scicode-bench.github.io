@@ -95,6 +95,7 @@ In designing test cases for evaluation, we incorporate domain-specific test case
 <p align="justify">
 We include several research problems that are built upon or reproduce methods used in Nobel Prize-winning studies to highlight current trends in scientific research: the self-consistent field (SCF) method for density functional theory (DFT) calculations (<b>The Nobel Prize in Chemistry 1998</b>), the PMNS matrix for neutrino oscillation in matter (<b>The Nobel Prize in Physics 2015</b>), the Haldane model for the anomalous quantum Hall effect (<b>The Nobel Prize in Physics 2016</b>), optical tweezer simulations for microscopic thermodynamics (<b>The Nobel Prize in Physics 2018</b>), and the replica method for spin glasses (<b>The Nobel Prize in Physics 2021</b>).
 </p>
+
 ## Experiment Results
 <p align="justify">
 We evaluate our model using zero-shot prompts. We keep the prompts general and design different ones for different evaluation setups only to inform the model about the tasks. We keep prompts the same across models and fields, and they contain the model’s main and sub-problem instructions and code for previous subproblems. The standard setup means the model is tested without background knowledge and carrying over generated solutions to previous subproblems. The scientists' annotated background provides the necessary knowledge and reasoning steps to solve the problems, shifting the evaluation’s focus more towards the models’ coding and instruction-following capabilities.
