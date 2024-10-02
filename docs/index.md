@@ -55,7 +55,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: Browse the results](faq.md)
+    [:octicons-arrow-right-24: Read the FAQ](faq.md)
 
 -   :material-trending-up:{ .lg .middle } __Leaderboard__
 
