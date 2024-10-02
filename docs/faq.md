@@ -53,11 +53,8 @@
 
 
 * **It seems that in the prompt template definition, the prompts with and without backgrounds are assigned the other way around:
-
-DEFAULT_PROMPT_TEMPLATE = Path("eval", "data", "background_comment_template.txt").read_text()
-
-BACKGOUND_PROMPT_TEMPLATE = Path("eval", "data", "multistep_template.txt").read_text()
-
+  DEFAULT_PROMPT_TEMPLATE = Path("eval", "data", "background_comment_template.txt").read_text()
+  BACKGOUND_PROMPT_TEMPLATE = Path("eval", "data", "multistep_template.txt").read_text()
 Are the numbers reported in the paper run with these prompts?**
 
     Yes, DEFAULT_PROMPT_TEMPLATE is our standard setup where we ask the model to generate the related background itself. BACKGOUND_PROMPT_TEMPLATE is the template where we will put in the scientist-annotated background.
