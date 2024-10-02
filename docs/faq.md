@@ -50,3 +50,24 @@
 * **How can I trust the out-of-domain validation?**
     The role of out-of-domain validation is not to ensure scientific correctness but rather to verify that the problem is presented in a way that is clear, complete, and accessible to someone outside the specific field. The primary focus of out-of-domain validators is to ensure that the combination of the question and its background information provides enough context for someone to solve the problem, even if they lack domain-specific expertise.
 
+
+
+* **It seems that in the prompt template definition, the prompts with and without backgrounds are assigned the other way around:
+
+DEFAULT_PROMPT_TEMPLATE = Path("eval", "data", "background_comment_template.txt").read_text()
+
+BACKGOUND_PROMPT_TEMPLATE = Path("eval", "data", "multistep_template.txt").read_text()
+
+Are the numbers reported in the paper run with these prompts?**
+
+    Yes, DEFAULT_PROMPT_TEMPLATE is our standard setup where we ask the model to generate the related background itself. BACKGOUND_PROMPT_TEMPLATE is the template where we will put in the scientist-annotated background.
+
+
+
+* **For subproblems 13.6, 62.1, 76.2, it seems like the model-generated outputs are ignored and replaced with the files in the eval folder - is this how the evaluations were run in the paper? And why are these problems evaluated this way?**
+    These three problem-code pairs are provided as given context in order to control uncertainty and reduce the degrees of freedom in the evaluation process. By doing so, we limit the model’s randomness in problem-solving. Without this context, the evaluation would allow for too many possible solutions, leading to inconsistent results.
+
+
+
+* **In line 66, if self.previous_llm_code[prev_step] is None the previous steps are populated with saved model outputs after running them through extract_function_name and get_function_from_code; otherwise the previous steps are populated with extract_python_script. It doesn't seem like the first case is invoked except for the subproblems 13.6, 62.1, 76.2 - can you confirm that extract_python_script was used for the numbers in the paper?**
+    This setup is designed specifically to handle cases where the model is interrupted mid-step and needs to resume from that point.
