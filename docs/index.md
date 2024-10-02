@@ -51,6 +51,12 @@
 
     [:octicons-arrow-right-24: Installation & usage](https://github.com/scicode-bench/SciCode)
 
+-   :material-trending-up:{ .lg .middle } __FAQ__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse the results](faq.md)
+
 -   :material-trending-up:{ .lg .middle } __Leaderboard__
 
     ---
