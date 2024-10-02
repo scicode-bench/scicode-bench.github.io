@@ -594,15 +594,12 @@
     The role of out-of-domain validation is not to ensure scientific correctness but rather to verify that the problem is presented in a way that is clear, complete, and accessible to someone outside the specific field. The primary focus of out-of-domain validators is to ensure that the combination of the question and its background information provides enough context for someone to solve the problem, even if they lack domain-specific expertise.</p>
 </li>
 <li>
-<p>**It seems that in the prompt template definition, the prompts with and without backgrounds are assigned the other way around:</p>
+<p><strong>It seems that in the prompt template definition, the prompts with and without backgrounds are assigned the other way around:
+  DEFAULT_PROMPT_TEMPLATE = Path("eval", "data", "background_comment_template.txt").read_text()
+  BACKGOUND_PROMPT_TEMPLATE = Path("eval", "data", "multistep_template.txt").read_text()
+Are the numbers reported in the paper run with these prompts?</strong></p>
+<p>Yes, DEFAULT_PROMPT_TEMPLATE is our standard setup where we ask the model to generate the related background itself. BACKGOUND_PROMPT_TEMPLATE is the template where we will put in the scientist-annotated background.</p>
 </li>
-</ul>
-<p>DEFAULT_PROMPT_TEMPLATE = Path("eval", "data", "background_comment_template.txt").read_text()</p>
-<p>BACKGOUND_PROMPT_TEMPLATE = Path("eval", "data", "multistep_template.txt").read_text()</p>
-<p>Are the numbers reported in the paper run with these prompts?**</p>
-<pre><code>Yes, DEFAULT_PROMPT_TEMPLATE is our standard setup where we ask the model to generate the related background itself. BACKGOUND_PROMPT_TEMPLATE is the template where we will put in the scientist-annotated background.
-</code></pre>
-<ul>
 <li>
 <p><strong>For subproblems 13.6, 62.1, 76.2, it seems like the model-generated outputs are ignored and replaced with the files in the eval folder - is this how the evaluations were run in the paper? And why are these problems evaluated this way?</strong>
     These three problem-code pairs are provided as given context in order to control uncertainty and reduce the degrees of freedom in the evaluation process. By doing so, we limit the model’s randomness in problem-solving. Without this context, the evaluation would allow for too many possible solutions, leading to inconsistent results.</p>
