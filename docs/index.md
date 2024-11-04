@@ -62,7 +62,6 @@
     ---
 
     How good are LMs at science, really?
-    (Coming soon...)
 
     [:octicons-arrow-right-24: Browse the results](leaderboard.md)
 
