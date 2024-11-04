@@ -6,9 +6,9 @@
 
 | Model                  | Main Problem Resolve Rate |
 |------------------------|---------------------------|
-| OpenAI o1-preview      | 7.7%                      |
-| Claude3.5-Sonnet       | 4.6%                      |
-| Deepseek-Coder-v2      | 3.1%                      |
+| 🥇OpenAI o1-preview     | 7.7%                      |
+| 🥈Claude3.5-Sonnet      | 4.6%                      |
+| 🥉Deepseek-Coder-v2     | 3.1%                      |
 | GPT-4o                 | 1.5%                      |
 | GPT-4-Turbo            | 1.5%                      |
 | OpenAI o1-mini         | 1.5%                      |
