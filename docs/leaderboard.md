@@ -6,9 +6,12 @@
 
 | Models                   | Main Problem Resolve Rate           | <span style="color:grey">Subproblem</span>            |
 |--------------------------|-------------------------------------|-------------------------------------|
-| 🥇 OpenAI o1-preview      | <div align="center">**7.7**</div>       | <div align="center" style="color:grey">28.5</div>     |
-| 🥈 Claude3.5-Sonnet       | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">26.0</div>     |
-| 🥉 Claude3.5-Sonnet (new) | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">25.3</div>     |
+| 🥇 OpenAI o3-mini        | <div align="center">**9.2**</div>       | <div align="center" style="color:grey">33.0</div>     |
+| 🥈 OpenAI o1-preview     | <div align="center">**7.7**</div>       | <div align="center" style="color:grey">28.5</div>     |
+| 🥉 Deepseek-R1           | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">28.5</div>     |
+| Claude3.5-Sonnet         | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">26.0</div>     |
+| Claude3.5-Sonnet (new)   | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">25.3</div>     |
+| Deepseek-v3              | <div align="center">**3.1**</div>       | <div align="center" style="color:grey">23.7</div>     |
 | Deepseek-Coder-v2        | <div align="center">**3.1**</div>       | <div align="center" style="color:grey">21.2</div>     |
 | GPT-4o                   | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">25.0</div>     |
 | GPT-4-Turbo              | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">22.9</div>     |
@@ -31,4 +34,4 @@
 </center>
 
 !!! tip "How to submit"
-    Want to submit your own model? Head over to the [documentation](docs/index.md).
+    Want to submit your own model? Submit a request via a [Github issue](https://github.com/scicode-bench/SciCode/issues).
