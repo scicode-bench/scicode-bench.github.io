@@ -64,4 +64,4 @@ plugins:
    - search
    - include-markdown
 repo_url: https://github.com/scicode-bench/SciCode
-repo_name: sicode-bench/SciCode
+repo_name: scicode-bench/SciCode
