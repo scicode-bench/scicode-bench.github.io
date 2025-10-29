@@ -1,6 +1,6 @@
 # Leaderboard
 
-## SciCode Leaderboard
+<div align="center" markdown="1">
 
 | Models                   | Main Problem Resolve Rate | <span style="color:grey">Subproblem</span> |
 |--------------------------|:-------------------------:|:--------------------------------------------:|
@@ -30,6 +30,8 @@
 <!-- Once you've added the results to the submission repository,
      bring back the table here -->
 <!-- include-markdown "leaderboard_table.md" -->
+
+</div>
 
 !!! tip "How to submit"
     Want to submit your own model? Submit a request via a [Github issue](https://github.com/scicode-bench/SciCode/issues).
