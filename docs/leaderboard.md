@@ -2,30 +2,28 @@
 
 <div align="center" markdown="1">
 
-# SciCode Leaderboard
-
-| Models                   | Main Problem Resolve Rate           | <span style="color:grey">Subproblem</span>            |
-|--------------------------|-------------------------------------|-------------------------------------|
-| 🥇 OpenAI o3-mini-low    | <div align="center">**10.8**</div>      | <div align="center" style="color:grey">33.3</div>     |
-| 🥈 OpenAI o3-mini-high   | <div align="center">**9.2**</div>       | <div align="center" style="color:grey">34.4</div>     |
-| 🥉 OpenAI o3-mini-medium | <div align="center">**9.2**</div>       | <div align="center" style="color:grey">33.0</div>     |
-| OpenAI o1-preview        | <div align="center">**7.7**</div>       | <div align="center" style="color:grey">28.5</div>     |
-| Deepseek-R1              | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">28.5</div>     |
-| Claude3.5-Sonnet         | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">26.0</div>     |
-| Claude3.5-Sonnet (new)   | <div align="center">**4.6**</div>       | <div align="center" style="color:grey">25.3</div>     |
-| Deepseek-v3              | <div align="center">**3.1**</div>       | <div align="center" style="color:grey">23.7</div>     |
-| Deepseek-Coder-v2        | <div align="center">**3.1**</div>       | <div align="center" style="color:grey">21.2</div>     |
-| GPT-4o                   | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">25.0</div>     |
-| GPT-4-Turbo              | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">22.9</div>     |
-| OpenAI o1-mini           | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">22.2</div>     |
-| Gemini 1.5 Pro           | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">21.9</div>     |
-| Claude3-Opus             | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">21.5</div>     |
-| Llama-3.1-405B-Chat      | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">19.8</div>     |
-| Claude3-Sonnet           | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">17.0</div>     |
-| Qwen2-72B-Instruct       | <div align="center">**1.5**</div>       | <div align="center" style="color:grey">17.0</div>     |
-| Llama-3.1-70B-Chat       | <div align="center">**0.0**</div>       | <div align="center" style="color:grey">17.0</div>     |
-| Mixtral-8x22B-Instruct   | <div align="center">**0.0**</div>       | <div align="center" style="color:grey">16.3</div>     |
-| Llama-3-70B-Chat         | <div align="center">**0.0**</div>       | <div align="center" style="color:grey">14.6</div>     |
+| Models                   | Main Problem Resolve Rate | <span style="color:grey">Subproblem</span> |
+|--------------------------|:-------------------------:|:--------------------------------------------:|
+| 🥇 OpenAI o3-mini-low    | **10.8**                  | <span style="color:grey">33.3</span>        |
+| 🥈 OpenAI o3-mini-high   | **9.2**                   | <span style="color:grey">34.4</span>        |
+| 🥉 OpenAI o3-mini-medium | **9.2**                   | <span style="color:grey">33.0</span>        |
+| OpenAI o1-preview        | **7.7**                   | <span style="color:grey">28.5</span>        |
+| Deepseek-R1              | **4.6**                   | <span style="color:grey">28.5</span>        |
+| Claude3.5-Sonnet         | **4.6**                   | <span style="color:grey">26.0</span>        |
+| Claude3.5-Sonnet (new)   | **4.6**                   | <span style="color:grey">25.3</span>        |
+| Deepseek-v3              | **3.1**                   | <span style="color:grey">23.7</span>        |
+| Deepseek-Coder-v2        | **3.1**                   | <span style="color:grey">21.2</span>        |
+| GPT-4o                   | **1.5**                   | <span style="color:grey">25.0</span>        |
+| GPT-4-Turbo              | **1.5**                   | <span style="color:grey">22.9</span>        |
+| OpenAI o1-mini           | **1.5**                   | <span style="color:grey">22.2</span>        |
+| Gemini 1.5 Pro           | **1.5**                   | <span style="color:grey">21.9</span>        |
+| Claude3-Opus             | **1.5**                   | <span style="color:grey">21.5</span>        |
+| Llama-3.1-405B-Chat      | **1.5**                   | <span style="color:grey">19.8</span>        |
+| Claude3-Sonnet           | **1.5**                   | <span style="color:grey">17.0</span>        |
+| Qwen2-72B-Instruct       | **1.5**                   | <span style="color:grey">17.0</span>        |
+| Llama-3.1-70B-Chat       | **0.0**                   | <span style="color:grey">17.0</span>        |
+| Mixtral-8x22B-Instruct   | **0.0**                   | <span style="color:grey">16.3</span>        |
+| Llama-3-70B-Chat         | **0.0**                   | <span style="color:grey">14.6</span>        |
 
 **Note: If the models tie in the Main Problem resolve rate, we will then compare the Subproblems.**
 
