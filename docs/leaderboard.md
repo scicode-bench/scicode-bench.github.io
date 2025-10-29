@@ -1,6 +1,6 @@
 # Leaderboard
 
-<center>
+<div align="center" markdown="1">
 
 # SciCode Leaderboard
 
@@ -33,7 +33,7 @@
      bring back the table here -->
 <!-- include-markdown "leaderboard_table.md" -->
 
-</center>
+</div>
 
 !!! tip "How to submit"
     Want to submit your own model? Submit a request via a [Github issue](https://github.com/scicode-bench/SciCode/issues).
